@@ -1,4 +1,4 @@
-### Scylla hide trên ida
+### Scyllahide trên ida
 
 Shortcut: Ctrl-Shift-H(nếu bị conflict thì tự sửa trong Option->shortcut)
 
