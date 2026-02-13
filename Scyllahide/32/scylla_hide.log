@@ -1,0 +1,22 @@
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserBlockInput = 0x75B24C30
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserQueryWindow = 0x75B21230
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserGetForegroundWindow = 0x75B214C0
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserBuildHwndList = 0x75B212F0
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserFindWindowEx = 0x75B217C0
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserGetClassName = 0x75B21890
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserInternalGetWindowText = 0x75B21720
+2026.02.04 09:19:29 INFO: Loaded VA for NtUserGetThreadState = 0x75B21150
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> _NtSetInformationThread 77DB8FE0 _NtQuerySystemInformation 77DB9290 _NtQueryInformationProcess 77DB90A0 _NtSetInformationProcess 77DB90F0 _NtQueryObject 77DB9010
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> _NtYieldExecution 77DB9390 _NtGetContextThread 77DB9EE0 _NtSetContextThread 77DBA8D0 _KiUserExceptionDispatcher 77DBB560 _NtContinue 77DB9360
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> _NtClose 77DB9000 _NtDuplicateObject 77DB92F0 _NtSetDebugFilterState 77DBA8E0 _NtCreateThread 77DB9410 _NtCreateThreadEx 77DB9BC0 _NtQuerySystemTime 77DB94D0 _NtQueryPerformanceCounter 77DB9240 _NtResumeThread 77DB9450
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> _NtOpenFile 77DB9260 _NtCreateSection 77DB93D0 _NtMapViewOfSection 77DB91B0
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtSetInformationThread
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtQueryInformationProcess
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtQueryObject
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtClose
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtDuplicateObject
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtOpenFile
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtCreateSection
+2026.02.04 09:19:29 DEBUG: ApplyNtdllHook -> Hooking NtMapViewOfSection
+2026.02.04 09:19:29 DEBUG: ApplyKernel32Hook -> Using Kernelbase 77840000 instead of kernel32 76250000
+2026.02.04 09:19:29 DEBUG: ApplyKernel32Hook -> _GetTickCount 779947C0 _GetTickCount64 77995E90 _GetLocalTime 779946B0 _GetSystemTime 779961F0 _OutputDebugStringA 77A7EC10
