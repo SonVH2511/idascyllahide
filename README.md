@@ -1,5 +1,5 @@
 ### Scyllahide trên ida
-
+Bản chất vẫn là tự động hóa quá trình lấy pid rồi inject con dll của scyllahide vào thôi.
 Shortcut: Ctrl-Shift-H(nếu bị conflict thì tự sửa trong Option->shortcut)
 
 ### Install
